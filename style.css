@@ -1,0 +1,59 @@
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,500&family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    
+}
+.container{
+    display: flex;
+    background-color: black;
+    border-radius: 30px;
+    margin-left: 140px;
+    margin-right: 139px;
+    margin-top: 50px;
+}
+.players{
+    color: white;
+    margin-left: 106px;
+    margin-top: 111px;
+    margin-right: 24px;
+}
+.players a{
+    text-decoration: none;
+    background-color: #DD0000;
+    border-radius: 5px;
+}
+.loser img{
+    margin-right: 79px;
+    margin-top: 33px;
+    margin-left: 24px;
+}
+
+.top-head{
+    text-decoration: none;
+    color: black;
+    background-color: black;
+    border-radius: 5px;
+    width: 312px;
+    height: 170px;
+}
+
+.heading{
+    text-align: center;
+    background-color: white;
+    border-radius: 60px;
+    margin-top: 30px;
+}
+.header{
+    text-align: center;
+    background-color: #DD0000;
+    border-radius: 60px;
+    margin-top: 30px;
+}
+
+
