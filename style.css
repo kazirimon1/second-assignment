@@ -6,7 +6,6 @@ body{
 }
 main{
     display: grid;
-    grid-template-columns: 2, 1fr;
     
 }
 .container{
@@ -35,8 +34,10 @@ main{
 }
 
 .top-head{
+    
     text-decoration: none;
     color: black;
+   
     background-color: black;
     border-radius: 5px;
     width: 312px;
@@ -55,5 +56,47 @@ main{
     border-radius: 60px;
     margin-top: 30px;
 }
-
-
+/* .toper-container{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+} */
+.top-cities{
+    display: flex;
+    
+}
+/* .bangladesh{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+} */
+.top-cities{
+    background-color:white;
+    border-radius: 5px;
+    width: 312px;
+    height: 362px;
+    margin-top: 14px;
+}
+.city-author a{
+    text-decoration: none;
+    border: 1px solid gray;
+    color: black;
+    border-radius: 2px;
+}
+.city-author{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.author{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.icon {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.icon .fa-clock{
+    margin-right: 10px;
+}
+.top-city{
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
